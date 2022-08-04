@@ -87,6 +87,18 @@
 
 }
 
+@media only screen and (max-width: 750px) {
+    
+    #nav_links_and_profile {
+
+        width: 65%;
+
+    }
+
+
+}
+
+
 @media only screen and (max-width: 680px) {
     
 

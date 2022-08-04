@@ -1,5 +1,6 @@
 import styles from "../styles/Footer.module.css";
 import Image from "next/image";
+import Link from "next/link"
 
 const Footer = () => {
 
@@ -18,9 +19,9 @@ const Footer = () => {
                     </div>
 
                     <div id={styles.right_footer_section}>
-                        <p> Terms </p>
-                        <p> Privacy </p>
-                        <p> Sitemap </p> 
+                        <Link href="/"> Terms </Link>
+                        <Link href="/"> Privacy </Link>
+                        <Link href="/"> Sitemap </Link>
 
                     </div>
 

@@ -13,7 +13,7 @@ const Layout = ( {children} ) => {
     const [expandCover, setExpandCover] = useState(styles.cover_component_min);
     
     const router = useRouter();
-
+    
     const toggleCover = () => {
         if (expanded === true) {
 

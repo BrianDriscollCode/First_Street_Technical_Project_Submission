@@ -1,8 +1,10 @@
+import styles from "../styles/Extra.module.css";
+
 const Account = () => {
 
     return (
 
-        <div id="account_page">
+        <div className={styles.extra_page}>
 
             <h1> Account Page </h1> 
 

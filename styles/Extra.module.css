@@ -1,0 +1,124 @@
+/* Extra page stylings here for pages not yet finished */
+
+.extra_page {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px 0 40px 0;
+
+}
+
+.extra_page h1 {
+
+    align-self: center;
+
+}
+
+.extra_page p {
+
+    align-self: center;
+
+}
+
+/* Help page */
+
+#help_container {
+
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+
+}
+
+.FAQ {
+
+    width: 800px;
+    border: 2px grey solid;
+    align-self: center;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    transition: height 1s, opacity 1s;
+
+}
+
+.FAQ p {
+
+    padding-left: 3em;
+
+}
+
+.FAQ:hover {
+
+    background-color: #88939e;
+
+}
+
+.FAQ:active {
+
+    background-color: #ee2d1c;
+
+} 
+
+.plus_sign {
+
+    font-size: 20px;
+    margin: 0 0 0 0;
+
+
+}
+
+#option2 {
+
+    transform: translateY(-2px);
+
+}
+
+
+@media only screen and (max-width: 820px) {
+
+
+    .FAQ {
+
+        width: 500px
+
+    }
+
+}
+
+@media only screen and (max-width: 680px) {
+
+
+    .FAQ {
+
+        width: 400px
+
+    }
+
+}
+
+@media only screen and (max-width: 484px) {
+
+
+    .FAQ {
+
+        width: 250px
+
+    }
+
+    .FAQ p {
+
+        padding-left: 5px;
+    
+    }
+    
+
+}
+
+@media only screen and (max-width: 380px) {
+
+
+}

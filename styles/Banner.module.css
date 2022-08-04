@@ -30,7 +30,7 @@
     line-height: 48px;
     color: #fff;
     font-weight: 400;
-    margin-bottom: 0;
+    margin-bottom: 40px; 
 
 }
 
@@ -42,7 +42,7 @@
     width: 19em;
     text-align: center;
     font-weight: 300;
-    margin: 1.5em 0 1.5em 0;
+    margin: 0px 0 22px 0;
 }
 
 #banner_content button {

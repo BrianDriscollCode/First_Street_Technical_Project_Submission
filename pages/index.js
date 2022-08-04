@@ -83,7 +83,7 @@ export default function Home( { videoData } ) {
                   <div 
                     id={styles.video_section_right}
                     style={{
-                      backgroundImage: `url("${videoData[videoNumber].thumbnail_large}")`,
+                      backgroundImage: `linear-gradient(180deg, rgba(238, 45, 28, 0.8),  rgba(255, 177, 181, 0.6), rgba(255, 177, 181, 0.9)), url("${videoData[videoNumber].thumbnail_large}")`,
                       backgroundRepeat: 'no-repeat',
                       backgroundSize: 'cover'
 
