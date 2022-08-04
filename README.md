@@ -23,6 +23,7 @@ The api returns very random descriptions (uploaded by users). Because of this, f
 ## Success and Failure
   
 Success - I was able to create a responsive layout and created a cool extra addon with the hero button. Make sure to click it to "see something cool".
+
 Failure - I wasn't able to write an endpoint and seperate it out like I would using "Node.js". So I included the API call in the home page file. Given more time I could figure this out.
   
 ## If I had more time 
