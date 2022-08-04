@@ -14,11 +14,11 @@ I chose to embed the navbar within the banner because of the layout. The other o
 
 **Challenge #2:** 
 
-When deploying the app, I came across errors that do not pop up when using 'npm run dev'. It required me to replace certain symbols, to use <Image> instead of <Img>, and to change the config. The built-in <Image> component requires integer units, which led me to solve problems differently because I often use percentages and "auto" when making responsive images.
+When deploying the app, I came across errors that do not pop up when using 'npm run dev'. It required me to replace certain symbols, to use Image elements instead of Img elements, and to change the config. The built-in Image component requires integer units, which led me to solve problems differently because I often use percentages and "auto" when making responsive images.
   
 **#Challenge #3:** 
   
-The api returns very random descriptions (uploaded by users). Because of this, formatting for descriptions could be vastly different. The solution I implemented, with time constraints, was to parse through and remove <br /> using a regular expression and to add an "expand description" option depending on description length.
+The api returns very random descriptions (uploaded by users). Because of this, formatting for descriptions could be vastly different. The solution I implemented, with time constraints, was to parse through and remove br html using a regular expression and to add an "expand description" option depending on description length.
   
 ## Success and Failure
   
